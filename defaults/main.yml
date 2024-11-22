@@ -1,5 +1,8 @@
 ---
-app_nextcloud_enabled: false
-app_nextcloud_puid: '16704'
-app_nextcloud_pgid: '16704'
-app_nextcloud_tz: "Europe/Zurich"
+role_nextcloud_image: 'lscr.io/linuxserver/nextcloud'
+role_nextcloud_container: 'nextcloud'
+role_nextcloud_puid: '1000'
+role_nextcloud_pgid: '1000'
+role_nextcloud_tz: 'Europe/Zurich'
+role_nextcloud_dir: '/opt/app-nextcloud'
+role_nextcloud_network: 'app-network'
